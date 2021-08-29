@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+}
+
+section {
+    color: darkblue;
+    font-family: 'Agency FB', Courier, monospace;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first {
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+    border: solid black 5px;
+    border-radius: 10px;
+    opacity: 0.5
+}
+
+.second {
+    width: 70%;
+    height: 100px;
+    background-color: green;
+    margin: 3px;
+    border: solid black 5px;
+}
+
+.third {
+    width: 70%;
+    height: 100px;
+    background-color: blue;
+    margin: 3px;
+    border: solid black 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth {
+    width: 70%;
+    height: 100px;
+    background-image: repeating-linear-gradient( yellow, aquamarine, lightcoral);
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.test-flex {
+    width: 70%;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.in {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+    border: solid black 3px;
+    border-radius: 5px;
+}
+
+#shadow {
+    box-shadow: -5px 5px 5px gray;
+}
+
+#shadow1 {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.button {
+    width: 150px;
+    background-color: darkseagreen;
+    /* background-image: linear-gradient(to right, rgb(250, 6, 6), rgb(158, 72, 129)); */
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+    line-height: 40px;
+    color: black;
+    border: solid lightseagreen 2px;
+}
+
+.button:hover {
+    transition: ease-in;
+    transition-duration: 250ms;
+    /* background-image: linear-gradient(to right, rgb(158, 72, 129), rgb(250, 6, 6)); */
+    background-color: black;
+    color: white;
+}
+
+.button:active {
+    background-color: white;
+    color: cyan;
+}
+
+.circle-container {
+    width: 80vw;
+    /* height: 100vh; */
+    border: 5px solid black;
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(148, 240, 148);
+    top: 100px;
+    z-index: 3;
+}
+
+.second-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(57, 228, 57);
+    position: relative;
+    top: -50px;
+    z-index: 2;
+}
+
+.third-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(8, 151, 8);
+    position: relative;
+    top: -100px;
+    z-index: 1;
+}
+
+.fourth-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgb(2, 79, 2);
+    position: relative;
+    top: -150px;
+}
